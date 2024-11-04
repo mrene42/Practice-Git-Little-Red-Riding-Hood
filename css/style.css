@@ -1,6 +1,7 @@
 header{
     background-color: black;
     display: flex;
+    height: 300px;
     align-items: center;
     justify-content: center;
 }
@@ -18,7 +19,8 @@ header{
 
 h1{
     font-size: 70px;
-    margin: 50px;
+    margin: 0%;
+    color: brown;
     background-color:  blanchedalmond;
 }
 
@@ -28,7 +30,15 @@ body{
     margin: 0%;
     background-image: url(../img/littleHoodAndWolf.png);
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: 100%;
+}
+
+.textStory{
+    background-color: rgba(0, 0, 0, 0.79);
+    margin: 80px;
+    font-size: 40px;
+    text-align: justify;
 }
 
 .divTable{
@@ -42,11 +52,13 @@ body{
 
 .textParagraph{
     margin: 50px;
+    color: blanchedalmond;
 }
 
 .textEnd{
     font-size: 60px;
     text-align: center;
+    color: blanchedalmond;
 }
 
 footer{
@@ -54,12 +66,14 @@ footer{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    height: 200px;
 }
 
 .logosFooter{
-    border-radius: 20px;
+    border-radius: 50px;
     height: 60px;
     width: 60px;
+   
 }
 
 .textCopyright{
